@@ -1,0 +1,97 @@
+*{
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+:root{
+    --cor-papel-de-parede: hsl(185, 75%, 39%);
+    --cor-do-texto: hsl(227, 10%, 46%, 50%);
+}
+
+
+body{
+    background-color: var(--cor-papel-de-parede);
+    background-image: url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right calc(100% - 650px) bottom calc(100% - 320px);
+    
+}
+.main{
+    position: relative;
+    
+
+}
+.main .bgballtop{
+    position: absolute;
+    right: 640px;
+    bottom: 250px;
+}
+.cartaocontainer{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.cartoes{
+    position: relative;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    border-bottom: solid var(--cor-do-texto);
+    border-radius: 10px 10px 0px 0px;
+
+}
+.bgmar{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.imagemperfil{
+    max-width: 100%;
+    border-radius: 300px;
+    position: absolute;
+    right: 125px;
+    top: 87px;
+    border:5px solid white;
+    
+}
+.nome{
+    padding-top: 60px;
+    font-weight: 700;
+}
+.cidade{
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+span, .cidade{
+    color: var(--cor-do-texto);
+}
+.container-baixo{
+    position: relative;
+    width: 350px;
+    background-color: white;
+    height: 86px;
+    align-content: center;
+    border-radius: 0px 0px 10px 10px;
+}
+.numerosraiz{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.seguidoresraiz{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+   
+}
+.likes{
+    padding-right: 20px;
+}
+.seguidores{
+  
+    color: var(--cor-do-texto);   
+}
+
+

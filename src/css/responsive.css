@@ -1,0 +1,38 @@
+@media(max-width:820px){
+    body{
+        background-position: right calc(100% - 350px) bottom calc(100% - 320px);
+        
+    }
+    .main .bgballtop{
+        right: 350px;
+        bottom: 250px;
+    }
+}
+@media(max-width:480px){
+    body{
+        background-position: right calc(100% - 180px) bottom calc(100% - 320px);
+        
+    }
+    .main .bgballtop{
+        right: 200px;
+        bottom: 250px;
+    }
+}
+@media(max-width:390px){
+    body{
+        background-position: right calc(100% - 70px) bottom calc(100% - 320px);
+        
+    }
+    .main .cartoes, .main .container-baixo{
+        max-width: 270px;
+    }
+    .imagemperfil{
+        top: 55px;
+        left: 82px;
+    }
+}
+
+
+
+
+
